@@ -7,4 +7,4 @@ class mytest {
 }
 
 
-const myObject = new mytest('This is great')
+const myObject = new mytest('Hello you too')

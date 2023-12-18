@@ -1,3 +1,7 @@
+class myRect {
+    
+}
+
 const myCanvas = document.getElementById('myCanvas');
 
 myCanvas.width = window.innerWidth;

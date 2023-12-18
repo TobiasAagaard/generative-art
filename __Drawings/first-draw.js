@@ -12,7 +12,7 @@ ctx.fillRect(10, 10, 200, 300)
 ctx.fillStyle = 'rgba(0, 0, 200, 0.5)';
 ctx.fillRect(100, 100, 300, 350)
 
-ctx.fillStyle = 'rgb(50, 300, 60)';
+ctx.fillStyle = 'rgb(50, 255, 60)';
 ctx.fillRect(200, 200, 300, 400)
 
 

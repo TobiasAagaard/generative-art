@@ -27,3 +27,36 @@ ctx.beginPath();
 ctx.ellipse(700, 400, 200, 200, Math.PI / 1, 3, 2 * Math.PI);
 ctx.fill();
 
+
+ctx.beginPath();
+ctx.ellipse(800, 300, 30, 30, Math.PI / 4, 0, 2 * Math.PI);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.ellipse(800, 300, 10, 10, Math.PI / 4, 0, 2 * Math.PI);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.ellipse(600, 300, 30, 30, Math.PI / 4, 0, 2 * Math.PI);
+ctx.stroke();
+
+ctx.beginPath();
+ctx.ellipse(600, 300, 10, 10, Math.PI / 4, 0, 2 * Math.PI);
+ctx.stroke();
+
+ctx.fillStyle = 'white'
+ctx.beginPath();
+ctx.arc(700, 450, 60, 0, Math.PI, false); 
+ctx.fill()
+
+
+ctx.fillStyle = 'green'
+ctx.beginPath();
+ctx.moveTo(635, 375);
+ctx.lineTo(700, 400);
+ctx.lineTo(700, 355);
+ctx.fill();
+
+
+
+

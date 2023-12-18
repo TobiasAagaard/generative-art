@@ -1,9 +1,11 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: black;
+    color: black;
 }
 
 #myCanvas {
-    background-color: black;
-    color: black;
+    position: fixed;
+    z-index: -1;
 }

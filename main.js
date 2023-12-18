@@ -7,9 +7,7 @@ class car {
         this.condition = condition;
 
 
-        getInfo(){
-            return`jeg er en ${brand} og en ${model}. jeg er fra år ${year}, og jeg er i ${condition} stand`;
-        }
+        
 
     }
 
@@ -18,8 +16,9 @@ class car {
 
 myCar = [];
 
-const car1 = new car('Volvo', 'v18', 1998, 'god')
+myCar.push = new car('Volvo', 'v18', 1998, 'god')
+myCar.push = new car('Porche', '911', 2023, 'ny')
 
 
-console.log(car1)
+console.log(myCar)
 

@@ -1,11 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: black;
-    color: black;
 }
 
-#myCanvas {
+#canvasContainer {
     position: fixed;
     z-index: -1;
 }

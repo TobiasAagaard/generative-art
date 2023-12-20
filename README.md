@@ -1,3 +1,3 @@
 # generative-art
 
-#Kunst
+Art
